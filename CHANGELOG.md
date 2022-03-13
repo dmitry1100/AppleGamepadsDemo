@@ -2,6 +2,12 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.0.3] - 2022-03-13
+
+### Fixes
+
+* Compile issues in Editor on Windows and Linux
+
 ## [1.0.2] - 2022-02-04
 
 ### Features
