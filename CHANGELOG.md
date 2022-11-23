@@ -2,31 +2,29 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.1.1] - 2022-07-27
+
+* Fix: Info.plist was not set when "Install Input Manager Hook" unchecked
+
+## [1.1.0] - 2022-07-26
+
+* Simulator SDK targeting
+* Support absolute D-Pad values reporting for Input System
+* Stability improvements
+
 ## [1.0.3] - 2022-03-13
 
-### Fixes
-
-* Compile issues in Editor on Windows and Linux
+* Fix: Compile issues in Editor on Windows and Linux
 
 ## [1.0.2] - 2022-02-04
 
-### Features
-
 * Demo mode
-
-### Fixes
-
-* Menu button mapping fixed
+* Fix: Menu button mapping fixed
 
 ## [1.0.1] - 2022-01-28
 
-### Features
-
 * Apple TV Remote generation can be requested
-
-### Fixes
-
-* Clickpad freezes when set as D-Pad in Input Manager (Old)
+* Fix: Clickpad freezes when set as D-Pad in Input Manager (Old)
 
 ## [1.0.0] - 2021-12-08
 
