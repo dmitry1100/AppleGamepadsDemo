@@ -2,6 +2,18 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.2.0] - 2023-04-04
+
+* Compile time condition to disable automatic initialization
+* Protection from multiple initialization calls
+* Separate demo scenes by input type
+* Remove default Apple Gamepads Settings from Preloaded Assets. Add them automatically during the build and remove after
+* Fix macOS Xcode build for Unity 2020.1 and earlier
+* Merge device and simulator native code into one fat library
+* Remove armv7 iOS support from native library to
+* Demo scenes with UGUI navigation examples
+* Tool to cleanup old stuff and upgrade asset
+
 ## [1.1.1] - 2022-07-27
 
 * Fix: Info.plist was not set when "Install Input Manager Hook" unchecked
