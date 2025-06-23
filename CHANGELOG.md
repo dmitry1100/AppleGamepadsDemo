@@ -2,6 +2,12 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.3.0] - 2025-06-23
+
+* New: **Enable Micro Gamepad** toggle in *Input System (New)* settings — registers Apple Micro Gamepad layout for Siri Remote.  
+* Added compatibility with Unity 6000.0 – 6000.2.
+* Fix: typo in compile‑time define — `FIFTYTWO_APPLE_GAMEPADS_DISABLE_DIEFAULT_INITIALIZATION` ➜ `FIFTYTWO_APPLE_GAMEPADS_DISABLE_DEFAULT_INITIALIZATION`.
+
 ## [1.2.0] - 2023-04-04
 
 * Compile time condition to disable automatic initialization
@@ -12,7 +18,7 @@ All notable changes to this package will be documented in this file.
 * Merge device and simulator native code into one fat library
 * Remove armv7 iOS support from native library to
 * Demo scenes with UGUI navigation examples
-* Tool to cleanup old stuff and upgrade asset
+* Tool to clean up old stuff and upgrade asset
 
 ## [1.1.1] - 2022-07-27
 
